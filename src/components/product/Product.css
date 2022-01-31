@@ -1,0 +1,89 @@
+
+.container-product{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px orange;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.container-product:last-child{
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+.product{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+    
+}
+
+
+.product Ion-avatar{
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    --border-radius: 0%;
+
+
+    
+}
+
+
+
+
+
+.content-product{
+    width: 70% ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.title-product{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    
+}
+
+.desc-product{
+    font-size: 0.95rem;
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    
+
+}
+.content-valor-product{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    padding-left: 10px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.promocional-valor-product{
+    margin-right: 10px;
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #373737;
+}
+
+.valor-product{
+    color: #1a1a1a;
+    font-size: 1.5rem;
+}
